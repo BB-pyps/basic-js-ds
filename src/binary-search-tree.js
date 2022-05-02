@@ -16,29 +16,29 @@ class BinarySearchTree {
   }
 
   add(data) {
-    const newNode = new Node(data);
-    if(!this.root){
-      this.root = newNode;
-      return;
-    }
+    // const newNode = new Node(data);
+    // if(!this.root){
+    //   this.root = newNode;
+    //   return;
+    // }
 
-    let currentNode = this.root;
+    // let currentNode = this.root;
 
-    while(currentNode){
-      if(newNode < currentNode.data){
-        if(!currentNode.left){
-          currentNode.left = newNode;
-          return;
-        }
-        currentNode = currentNode.left;
-      } else {
-        if(!currentNode.right){
-          currentNode.right = newNode;
-          return;
-        }
-        currentNode = currentNode.right;
-      }
-    }
+    // while(currentNode){
+    //   if(newNode < currentNode.data){
+    //     if(!currentNode.left){
+    //       currentNode.left = newNode;
+    //       return;
+    //     }
+    //     currentNode = currentNode.left;
+    //   } else {
+    //     if(!currentNode.right){
+    //       currentNode.right = newNode;
+    //       return;
+    //     }
+    //     currentNode = currentNode.right;
+    //   }
+    // }
   }
 
   has(/* data */) {
